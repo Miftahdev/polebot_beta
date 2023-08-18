@@ -1,0 +1,8 @@
+prefix=/home/miftah/polebot_beta/install
+
+Name: polebot1
+Description: Description of polebot1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

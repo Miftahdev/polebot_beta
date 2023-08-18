@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Pol_Gazebo_screen">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.00356908133816926 -0.00222073760932315 0.133841847975264"
+        rpy="0 0 0" />
+      <mass
+        value="11.6226437512049" />
+      <inertia
+        ixx="0.127810000691284"
+        ixy="0.000472332443139128"
+        ixz="0.000636561009714243"
+        iyy="0.128340502163688"
+        iyz="0.000444108473671707"
+        izz="0.234546201659624" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Pol_Gazebo_screen/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0.25 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Pol_Gazebo_screen/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="M1">
+    <inertial>
+      <origin
+        xyz="-0.153007981354712 0.0883387528868498 0.0287003600239704"
+        rpy="0 0 0" />
+      <mass
+        value="0.190406572773292" />
+      <inertia
+        ixx="8.2519559593688E-05"
+        ixy="-1.84334703282559E-05"
+        ixz="4.83042806388114E-11"
+        iyy="6.12344158193163E-05"
+        iyz="1.06649032857164E-10"
+        izz="5.05911493223384E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Pol_Gazebo_screen/meshes/M1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Pol_Gazebo_screen/meshes/M1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_left"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="M1" />
+    <axis
+      xyz="-0.86603 0.5 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="30"
+      velocity="30" />
+  </joint>
+  <link
+    name="M3">
+    <inertial>
+      <origin
+        xyz="0.152995792760896 0.0883597247812082 0.0287791512343051"
+        rpy="0 0 0" />
+      <mass
+        value="0.190406799241796" />
+      <inertia
+        ixx="8.25195204553206E-05"
+        ixy="1.8433618603247E-05"
+        ixz="1.59498412064907E-10"
+        iyy="6.12341904194763E-05"
+        iyz="-2.9171427217004E-10"
+        izz="5.05914996066593E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Pol_Gazebo_screen/meshes/M3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Pol_Gazebo_screen/meshes/M3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_right"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="M3" />
+    <axis
+      xyz="0.86603 0.5 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="30"
+      velocity="30" />
+  </joint>
+  <link
+    name="M2">
+    <inertial>
+      <origin
+        xyz="-4.22442162838488E-05 -0.176640014527797 0.0287419523189644"
+        rpy="0 0 0" />
+      <mass
+        value="0.190406593721018" />
+      <inertia
+        ixx="5.05915481608335E-05"
+        ixy="-5.68820758351581E-12"
+        ixz="3.60627062469778E-10"
+        iyy="9.31621300589302E-05"
+        iyz="8.14828361109055E-12"
+        izz="5.05914527637891E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Pol_Gazebo_screen/meshes/M2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Pol_Gazebo_screen/meshes/M2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_back"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="M2" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="30"
+      velocity="30" />
+  </joint>
+</robot>

@@ -1,0 +1,1339 @@
+Script started on 2023-01-30 20:47:21+07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ sr[Kx[K[Kscript[K[K[K[K[K[Kls
+CMakeLists.txt  [0m[01;34minclude[0m  package.xml  [01;34mscripts[0m  [01;34msrc[0m  typescript
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ scripts
+
+Command 'scripts' not found, but can be installed with:
+
+sudo apt install gitlab-runner
+
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ l[Kls
+CMakeLists.txt  [0m[01;34minclude[0m  package.xml  [01;34mscripts[0m  [01;34msrc[0m  typescript
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ cd ..
+]0;miftah@miftah-hp: ~/polebot_beta/src[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src[00m$ ls
+[0m[01;36mCMakeLists.txt[0m  [01;34mpolebot1[0m  [01;34mrosserial[0m
+]0;miftah@miftah-hp: ~/polebot_beta/src[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src[00m$ cd[K[Ksudo ana[K[K[Knano Cm[KMakeLists.txt 
+[sudo] password for miftah: 
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 69 lines ](B[m[H(B[0;7m  GNU nano 4.8                     CMakeLists.txt                               [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d(B[0;1m[34m# toplevel CMakeLists.txt for a catkin workspace[3d# catkin/cmake/toplevel.cmake[5d(B[0m[32mcmake_minimum_required[39m(B[m(VERSION 3.0.2)[7d[32mproject[39m(B[m(Project)[9d[32mset[39m(B[m(CATKIN_TOPLEVEL TRUE)[11d(B[0;1m[34m# search for catkin within the workspace[12d(B[0m[32mset[39m(B[m(_cmd "catkin_find_pkg" "catkin" "[36m${CMAKE_SOURCE_DIR}[39m(B[m")[13d[32mexecute_process[39m(B[m((B[0;1m[32mCOMMAND (B[0m[36m${_cmd}[14d[32m  RESULT_VARIABLE[39m(B[m _res[15d[32m  OUTPUT_VARIABLE[39m(B[m _out[16d[32m  ERROR_VARIABLE[39m(B[m _err[17d[32m  OUTPUT_STRIP_TRAILING_WHITESPACE[18d  ERROR_STRIP_TRAILING_WHITESPACE[19d[39m(B[m)[20d(B[0;1m[32mif[39m(B[m((B[0;1m[32mNOT [39m(B[m_res(B[0;1m[32m EQUAL [39m(B[m0(B[0;1m[32m AND NOT [39m(B[m_res(B[0;1m[32m EQUAL [39m(B[m2)[21d (B[0;1m[34m # searching fot catkin resulted in an error[2d[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[32m  string[39m(B[m(REPLACE ";" " " _cmd_str "[36m${_cmd}[39m(B[m")[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[32m  message[39m(B[m(FATAL_ERROR "Search for 'catkin' in workspace failed ([36m${_cmd_str}[39m(B[m): [36m$[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[32mendif[39m(B[m()[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m# include catkin from workspace or via find_package()[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[32mif[39m(B[m(_res(B[0;1m[32m EQUAL [39m(B[m0)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m  set[39m(B[m(catkin_EXTRAS_DIR "[36m${CMAKE_SOURCE_DIR}[39m(B[m/[36m${_out}[39m(B[m/cmake")[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;2H(B[0;1m[34m # include all.cmake without add_subdirectory to let it operate in same scope[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33m  include[39m(B[m([36m${catkin_EXTRAS_DIR}[39m(B[m/all.cmake NO_POLICY_SCOPE)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m  add_subdirectory[39m(B[m("[36m${_out}[39m(B[m")[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32melse[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;2H(B[0;1m[34m # use either CMAKE_PREFIX_PATH explicitly passed to CMake as a command line a[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;2H(B[0;1m[34m # or CMAKE_PREFIX_PATH from the environment[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32m  if[39m(B[m((B[0;1m[32mNOT DEFINED [39m(B[mCMAKE_PREFIX_PATH)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32m    if[39m(B[m((B[0;1m[32mNOT [39m(B[m"[36m$ENV{CMAKE_PREFIX_PATH}[39m(B[m"(B[0;1m[32m STREQUAL [39m(B[m"")[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;6H(B[0;1m[32m[1K if[39m(B[m((B[0;1m[32mNOT (B[0m[35mWIN32[39m(B[m)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;8H[32m[1K string[39m(B[m(REPLACE ":" ";" CMAKE_PREFIX_PATH [36m$ENV{CMAKE_PREFIX_PATH}[39m(B[m)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;6H(B[0;1m[32m[1K else[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;8H[32m[1K set[39m(B[m(CMAKE_PREFIX_PATH [36m$ENV{CMAKE_PREFIX_PATH}[39m(B[m)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;6H(B[0;1m[32m[1K endif[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32m    endif[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32m  endif[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;2H(B[0;1m[34m # list of catkin workspaces[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m  set[39m(B[m(catkin_search_path "")[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32m  foreach[39m(B[m(path [36m${CMAKE_PREFIX_PATH}[39m(B[m)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32m    if[39m(B[m((B[0;1m[32mEXISTS [39m(B[m"[36m${path}[39m(B[m/.catkin")[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;6H[32m[1K list[39m(B[m(FIND catkin_search_path [36m${path}[39m(B[m _index)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;6H(B[0;1m[32m[1K if[39m(B[m(_index(B[0;1m[32m EQUAL [39m(B[m-1)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;8H[32m[1K list[39m(B[m(APPEND catkin_search_path [36m${path}[39m(B[m)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;6H(B[0;1m[32m[1K endif[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32m    endif[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32m  endforeach[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;2H(B[0;1m[34m # search for catkin in all workspaces[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m  set[39m(B[m(CATKIN_TOPLEVEL_FIND_PACKAGE TRUE)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m  find_package[39m(B[m(catkin QUIET[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m    NO_POLICY_SCOPE[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m    PATHS[39m(B[m [36m${catkin_search_path}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m    NO_DEFAULT_PATH[39m(B[m NO_CMAKE_FIND_ROOT_PATH)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m  unset[39m(B[m(CATKIN_TOPLEVEL_FIND_PACKAGE)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32m  if[39m(B[m((B[0;1m[32mNOT [39m(B[mcatkin_FOUND)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m    message[39m(B[m(FATAL_ERROR "find_package(catkin) failed. catkin was neither found (B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32m  endif[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[32mendif[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mcatkin_workspace[39m(B[m()[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[23d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;miftah@miftah-hp: ~/polebot_beta/src[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src[00m$ ls
+[0m[01;36mCMakeLists.txt[0m  [01;34mpolebot1[0m  [01;34mrosserial[0m
+]0;miftah@miftah-hp: ~/polebot_beta/src[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src[00m$ cd polebot1/
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ ls
+CMakeLists.txt  [0m[01;34minclude[0m  package.xml  [01;34mscripts[0m  [01;34msrc[0m  typescript
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ sudo ana[K[K[Ka[Knano CMakeLists.txt 
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 206 lines ](B[m[H(B[0;7m  GNU nano 4.8                     CMakeLists.txt                               [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m[32mcmake_minimum_required[39m(B[m(VERSION 3.0.2)[3d[32mproject[39m(B[m(polebot1)[5d(B[0;1m[34m## Compile as C++11, supported in ROS Kinetic and newer[6d# add_compile_options(-std=c++11)[8d## Find catkin macros and libraries[9d## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)[10d## is used, also find other catkin packages[11d(B[0m[32mfind_package[39m(B[m(catkin REQUIRED COMPONENTS[12d[32m  roscpp[13d  rospy[14d  std_msgs[15d[39m(B[m)[17d(B[0;1m[34m## System dependencies are found with CMake's conventions[18d# find_package(Boost REQUIRED COMPONENTS system)[21d## Uncomment this if the package has a setup.py. This macro ensures[2d[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m## modules and global scripts declared therein get installed[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m# catkin_python_setup()[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m## Declare ROS messages, services and actions ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[K[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## To declare and build messages, services or actions from within this[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## package, follow these steps:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * Let MSG_DEP_SET be the set of packages whose message types you use in[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   your messages/services/actions (e.g. std_msgs, actionlib_msgs, ...).[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In the file package.xml:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add a build_depend tag for "message_generation"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add a build_depend and a exec_depend tag for each package in MSG_DEP_SET[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * If MSG_DEP_SET isn't empty the following dependency has been pulled in[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     but can be declared for certainty nonetheless:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     * add a exec_depend tag for "message_runtime"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In this file (CMakeLists.txt):[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add "message_generation" and every package in MSG_DEP_SET to[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     find_package(catkin REQUIRED COMPONENTS ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add "message_runtime" and every package in MSG_DEP_SET to[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     catkin_package(CATKIN_DEPENDS ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * uncomment the add_*_files sections below as needed[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     and list every .msg/.srv/.action file to be processed[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * uncomment the generate_messages entry below[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate messages in the 'msg' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_message_files([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Message1.msg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Message2.msg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate services in the 'srv' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_service_files([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Service1.srv[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Service2.srv[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate actions in the 'action' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_action_files([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Action1.action[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Action2.action[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate added messages and services with any dependencies listed here[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# generate_messages([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DEPENDENCIES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   std_msgs[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare ROS dynamic reconfigure parameters ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## To declare and build dynamic reconfigure parameters within this[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## package, follow these steps:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In the file package.xml:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add a build_depend and a exec_depend tag for "dynamic_reconfigure"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In this file (CMakeLists.txt):[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add "dynamic_reconfigure" to[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     find_package(catkin REQUIRED COMPONENTS ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * uncomment the "generate_dynamic_reconfigure_options" section below[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     and list every .cfg file to be processed[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate dynamic reconfigure parameters in the 'cfg' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# generate_dynamic_reconfigure_options([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   cfg/DynReconf1.cfg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   cfg/DynReconf2.cfg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## catkin specific configuration ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## The catkin_package macro generates cmake config files for your package[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare things to be passed to dependent projects[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## INCLUDE_DIRS: uncomment this if your package contains header files[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## LIBRARIES: libraries you create in this project that dependent projects also[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## CATKIN_DEPENDS: catkin_packages dependent projects also need[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## DEPENDS: system dependencies of this project that dependent projects also ne[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mcatkin_package[39m(B[m([?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  INCLUDE_DIRS include[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  LIBRARIES polebot1[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  CATKIN_DEPENDS roscpp rospy std_msgs[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  DEPENDS system_lib[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###########[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Build ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###########[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Specify additional locations of header files[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Your package locations should be listed before other locations[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33minclude_directories[39m(B[m([?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# include[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;3H[36m${catkin_INCLUDE_DIRS}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare a C++ library[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_library(${PROJECT_NAME}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   src/${PROJECT_NAME}/polebot1.cpp[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add cmake target dependencies of the library[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## as an example, code may need to be generated before libraries[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## either from message generation or dynamic reconfigure[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare a C++ executable[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## With catkin_make all packages are built within a single CMake context[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## The recommended prefix ensures that target names across packages don't colli[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_executable(${PROJECT_NAME}_node src/polebot1_node.cpp)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Rename C++ executable without prefix[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## The above recommended prefix causes long target names, the following renames[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## target back to the shorter version for ease of user use[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## e.g. "rosrun someones_pkg node" instead of "rosrun someones_pkg someones_pkg[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# set_target_properties(${PROJECT_NAME}_node PROPERTIES OUTPUT_NAME node PREFIX[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add cmake target dependencies of the executable[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## same as for the library above[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${c[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Specify libraries to link a library or executable target against[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# target_link_libraries(${PROJECT_NAME}_node[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   ${catkin_LIBRARIES}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Install ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# all install targets should use catkin DESTINATION variables[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark executable scripts (Python etc.) for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## in contrast to setup.py, you can choose the destination[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# catkin_install_python(PROGRAMS[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   scripts/my_python_script[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark executables for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_execu[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}_node[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark libraries for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libra[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark cpp header files for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(DIRECTORY include/${PROJECT_NAME}/[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES_MATCHING PATTERN "*.h"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   PATTERN ".svn" EXCLUDE[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark other files for installation (e.g. launch and bag files, etc.)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   # myfile1[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   # myfile2[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Testing ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add gtest based cpp test target and link libraries[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# catkin_add_gtest(${PROJECT_NAME}-test test/test_polebot1.cpp)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# if(TARGET ${PROJECT_NAME}-test)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# endif()[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add folders to be run by python nosetests[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# catkin_add_nosetests(test)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   PATTERN ".svn" EXCLUDE[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m#   FILES_MATCHING PATTERN "*.h"[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# install(DIRECTORY include/${PROJECT_NAME}/[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Mark cpp header files for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libra[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Mark libraries for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}_node[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_execu[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## Mark executables for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   scripts/my_python_script[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# catkin_install_python(PROGRAMS[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## in contrast to setup.py, you can choose the destination[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## Mark executable scripts (Python etc.) for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# all install targets should use catkin DESTINATION variables[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Install ##[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark libraries for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libra[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark cpp header files for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(DIRECTORY include/${PROJECT_NAME}/[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES_MATCHING PATTERN "*.h"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   PATTERN ".svn" EXCLUDE[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark other files for installation (e.g. launch and bag files, etc.)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   # myfile1[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   # myfile2[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Testing ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add gtest based cpp test target and link libraries[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# catkin_add_gtest(${PROJECT_NAME}-test test/test_polebot1.cpp)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# if(TARGET ${PROJECT_NAME}-test)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# endif()[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add folders to be run by python nosetests[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# catkin_add_nosetests(test)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   PATTERN ".svn" EXCLUDE[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m#   FILES_MATCHING PATTERN "*.h"[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# install(DIRECTORY include/${PROJECT_NAME}/[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Mark cpp header files for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libra[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Mark libraries for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}_node[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_execu[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## Mark executables for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   scripts/my_python_script[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# catkin_install_python(PROGRAMS[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## in contrast to setup.py, you can choose the destination[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## Mark executable scripts (Python etc.) for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# all install targets should use catkin DESTINATION variables[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Install ##[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   ${catkin_LIBRARIES}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# target_link_libraries(${PROJECT_NAME}_node[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Specify libraries to link a library or executable target against[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m# add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${c[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## same as for the library above[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Add cmake target dependencies of the executable[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# set_target_properties(${PROJECT_NAME}_node PROPERTIES OUTPUT_NAME node PREFIX[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## e.g. "rosrun someones_pkg node" instead of "rosrun someones_pkg someones_pkg[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## target back to the shorter version for ease of user use[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## The above recommended prefix causes long target names, the following renames[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Rename C++ executable without prefix[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m# add_executable(${PROJECT_NAME}_node src/polebot1_node.cpp)[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## The recommended prefix ensures that target names across packages don't colli[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## With catkin_make all packages are built within a single CMake context[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Declare a C++ executable[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## either from message generation or dynamic reconfigure[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## as an example, code may need to be generated before libraries[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Add cmake target dependencies of the library[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   src/${PROJECT_NAME}/polebot1.cpp[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# add_library(${PROJECT_NAME}[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## Declare a C++ library[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H)[?12l[?25h[?25l7[2;21r8M[1;24r[2;3H[36m${catkin_INCLUDE_DIRS}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# include[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[33minclude_directories[39m(B[m([?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## Your package locations should be listed before other locations[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Specify additional locations of header files[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m###########[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Build ##[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m###########[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H)[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#  DEPENDS system_lib[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#  CATKIN_DEPENDS roscpp rospy std_msgs[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m#  LIBRARIES polebot1[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#  INCLUDE_DIRS include[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[32mcatkin_package[39m(B[m([?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## DEPENDS: system dependencies of this project that dependent projects also ne[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## CATKIN_DEPENDS: catkin_packages dependent projects also need[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## LIBRARIES: libraries you create in this project that dependent projects also[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## INCLUDE_DIRS: uncomment this if your package contains header files[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Declare things to be passed to dependent projects[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## The catkin_package macro generates cmake config files for your package[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m###################################[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## catkin specific configuration ##[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m###################################[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   cfg/DynReconf2.cfg[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   cfg/DynReconf1.cfg[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m# generate_dynamic_reconfigure_options([39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Generate dynamic reconfigure parameters in the 'cfg' folder[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##     and list every .cfg file to be processed[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##   * uncomment the "generate_dynamic_reconfigure_options" section below[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##     find_package(catkin REQUIRED COMPONENTS ...)[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##   * add "dynamic_reconfigure" to[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## * In this file (CMakeLists.txt):[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##   * add a build_depend and a exec_depend tag for "dynamic_reconfigure"[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## * In the file package.xml:[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## package, follow these steps:[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## To declare and build dynamic reconfigure parameters within this[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Declare ROS dynamic reconfigure parameters ##[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   std_msgs[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   DEPENDENCIES[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# generate_messages([39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Generate added messages and services with any dependencies listed here[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   Action2.action[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   Action1.action[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# add_action_files([39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Generate actions in the 'action' folder[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   Service2.srv[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m#   Service1.srv[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# add_service_files([39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Generate services in the 'srv' folder[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   Message2.msg[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   Message1.msg[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# add_message_files([39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## Generate messages in the 'msg' folder[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##   * uncomment the generate_messages entry below[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##     and list every .msg/.srv/.action file to be processed[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##   * uncomment the add_*_files sections below as needed[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##     catkin_package(CATKIN_DEPENDS ...)[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m##   * add "message_runtime" and every package in MSG_DEP_SET to[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##     find_package(catkin REQUIRED COMPONENTS ...)[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##   * add "message_generation" and every package in MSG_DEP_SET to[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## * In this file (CMakeLists.txt):[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##     * add a exec_depend tag for "message_runtime"[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##     but can be declared for certainty nonetheless:[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##   * If MSG_DEP_SET isn't empty the following dependency has been pulled in[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m##   * add a build_depend and a exec_depend tag for each package in MSG_DEP_SET[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##   * add a build_depend tag for "message_generation"[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## * In the file package.xml:[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m##   your messages/services/actions (e.g. std_msgs, actionlib_msgs, ...).[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## * Let MSG_DEP_SET be the set of packages whose message types you use in[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## package, follow these steps:[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## To declare and build messages, services or actions from within this[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Declare ROS messages, services and actions ##[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# catkin_python_setup()[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## modules and global scripts declared therein get installed[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Uncomment this if the package has a setup.py. This macro ensures[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# find_package(Boost REQUIRED COMPONENTS system)[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## System dependencies are found with CMake's conventions[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H)[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[32m  std_msgs[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[32m  rospy[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[32m  roscpp[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[32mfind_package[39m(B[m(catkin REQUIRED COMPONENTS[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## is used, also find other catkin packages[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Find catkin macros and libraries[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# add_compile_options(-std=c++11)[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## Compile as C++11, supported in ROS Kinetic and newer[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[32mproject[39m(B[m(polebot1)[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[32mcmake_minimum_required[39m(B[m(VERSION 3.0.2)[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## modules and global scripts declared therein get installed[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# catkin_python_setup()[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare ROS messages, services and actions ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## To declare and build messages, services or actions from within this[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## package, follow these steps:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * Let MSG_DEP_SET be the set of packages whose message types you use in[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   your messages/services/actions (e.g. std_msgs, actionlib_msgs, ...).[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In the file package.xml:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add a build_depend tag for "message_generation"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add a build_depend and a exec_depend tag for each package in MSG_DEP_SET[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * If MSG_DEP_SET isn't empty the following dependency has been pulled in[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     but can be declared for certainty nonetheless:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     * add a exec_depend tag for "message_runtime"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In this file (CMakeLists.txt):[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add "message_generation" and every package in MSG_DEP_SET to[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     find_package(catkin REQUIRED COMPONENTS ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add "message_runtime" and every package in MSG_DEP_SET to[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     catkin_package(CATKIN_DEPENDS ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * uncomment the add_*_files sections below as needed[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     and list every .msg/.srv/.action file to be processed[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * uncomment the generate_messages entry below[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate messages in the 'msg' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_message_files([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Message1.msg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Message2.msg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate services in the 'srv' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_service_files([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Service1.srv[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Service2.srv[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate actions in the 'action' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_action_files([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Action1.action[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Action2.action[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate added messages and services with any dependencies listed here[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# generate_messages([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DEPENDENCIES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   std_msgs[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare ROS dynamic reconfigure parameters ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## To declare and build dynamic reconfigure parameters within this[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## package, follow these steps:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In the file package.xml:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add a build_depend and a exec_depend tag for "dynamic_reconfigure"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In this file (CMakeLists.txt):[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add "dynamic_reconfigure" to[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     find_package(catkin REQUIRED COMPONENTS ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * uncomment the "generate_dynamic_reconfigure_options" section below[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     and list every .cfg file to be processed[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate dynamic reconfigure parameters in the 'cfg' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# generate_dynamic_reconfigure_options([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   cfg/DynReconf1.cfg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   cfg/DynReconf2.cfg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## catkin specific configuration ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## The catkin_package macro generates cmake config files for your package[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare things to be passed to dependent projects[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## INCLUDE_DIRS: uncomment this if your package contains header files[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## LIBRARIES: libraries you create in this project that dependent projects also[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## CATKIN_DEPENDS: catkin_packages dependent projects also need[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## DEPENDS: system dependencies of this project that dependent projects also ne[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mcatkin_package[39m(B[m([?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  INCLUDE_DIRS include[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  LIBRARIES polebot1[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  CATKIN_DEPENDS roscpp rospy std_msgs[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  DEPENDS system_lib[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###########[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Build ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###########[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Specify additional locations of header files[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Your package locations should be listed before other locations[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33minclude_directories[39m(B[m([?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# include[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;3H[36m${catkin_INCLUDE_DIRS}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare a C++ library[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_library(${PROJECT_NAME}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   src/${PROJECT_NAME}/polebot1.cpp[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add cmake target dependencies of the library[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## as an example, code may need to be generated before libraries[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## either from message generation or dynamic reconfigure[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare a C++ executable[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## With catkin_make all packages are built within a single CMake context[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## The recommended prefix ensures that target names across packages don't colli[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_executable(${PROJECT_NAME}_node src/polebot1_node.cpp)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Rename C++ executable without prefix[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## The above recommended prefix causes long target names, the following renames[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## target back to the shorter version for ease of user use[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## e.g. "rosrun someones_pkg node" instead of "rosrun someones_pkg someones_pkg[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# set_target_properties(${PROJECT_NAME}_node PROPERTIES OUTPUT_NAME node PREFIX[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add cmake target dependencies of the executable[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## same as for the library above[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${c[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Specify libraries to link a library or executable target against[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# target_link_libraries(${PROJECT_NAME}_node[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   ${catkin_LIBRARIES}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Install ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# all install targets should use catkin DESTINATION variables[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark executable scripts (Python etc.) for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## in contrast to setup.py, you can choose the destination[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# catkin_install_python(PROGRAMS[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   scripts/my_python_script[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l[23d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ ls
+CMakeLists.txt  [0m[01;34minclude[0m  package.xml  [01;34mscripts[0m  [01;34msrc[0m  typescript
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ cd scripts/
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1/scripts[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1/scripts[00m$ clear
+[H[2J[3J]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1/scripts[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1/scripts[00m$ ls
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1/scripts[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1/scripts[00m$ cd ..
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ cd src/[K[K[Kcripts/
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1/scripts[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1/scripts[00m$ ls
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1/scripts[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1/scripts[00m$ cd
+]0;miftah@miftah-hp: ~[01;32mmiftah@miftah-hp[00m:[01;34m~[00m$ clear
+[H[2J[3J]0;miftah@miftah-hp: ~[01;32mmiftah@miftah-hp[00m:[01;34m~[00m$ ls
+[0m[01;34marduino[0m  [01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m      [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mArduino[0m  [01;34mDocuments[0m  [01;34mMusic[0m      [01;34mpolebot_beta[0m  [01;34mTemplates[0m
+]0;miftah@miftah-hp: ~[01;32mmiftah@miftah-hp[00m:[01;34m~[00m$ cd polebot_beta/
+]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ ls
+[0m[01;34mbuild[0m  [01;34mdevel[0m  [01;34minstall[0m  [01;34msrc[0m
+]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ cd src/
+]0;miftah@miftah-hp: ~/polebot_beta/src[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src[00m$ ls
+[0m[01;36mCMakeLists.txt[0m  [01;34mpolebot1[0m  [01;34mrosserial[0m
+]0;miftah@miftah-hp: ~/polebot_beta/src[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src[00m$ c[Kp[Kcd polebot1/
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ ls
+CMakeLists.txt  [0m[01;34minclude[0m  package.xml  [01;34mscripts[0m  [01;34msrc[0m  typescript
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ cd scripts/
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1/scripts[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1/scripts[00m$ code
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1/scripts[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1/scripts[00m$ cd ..
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ cd ..
+]0;miftah@miftah-hp: ~/polebot_beta/src[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src[00m$ cd ..
+]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ clear
+[H[2J[3J]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ catlom[K[K[K[K[K[Kc[Kcd p
+bash: cd: p: No such file or directory
+]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ ls[K[Kcd p[K[K[K[Kls
+[0m[01;34mbuild[0m  [01;34mdevel[0m  [01;34minstall[0m  [01;34msrc[0m
+]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ cd src/
+]0;miftah@miftah-hp: ~/polebot_beta/src[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src[00m$ ls
+[0m[01;36mCMakeLists.txt[0m  [01;34mpolebot1[0m  [01;34mrosserial[0m
+]0;miftah@miftah-hp: ~/polebot_beta/src[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src[00m$ cd polebot1/
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ ls
+CMakeLists.txt  [0m[01;34minclude[0m  package.xml  [01;34mscripts[0m  [01;34msrc[0m  typescript
+]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ cd [K[K[Ksudo nano CMakeLists.txt 
+[sudo] password for miftah: 
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 206 lines ](B[m[H(B[0;7m  GNU nano 4.8                     CMakeLists.txt                               [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m[32mcmake_minimum_required[39m(B[m(VERSION 3.0.2)[3d[32mproject[39m(B[m(polebot1)[5d(B[0;1m[34m## Compile as C++11, supported in ROS Kinetic and newer[6d# add_compile_options(-std=c++11)[8d## Find catkin macros and libraries[9d## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)[10d## is used, also find other catkin packages[11d(B[0m[32mfind_package[39m(B[m(catkin REQUIRED COMPONENTS[12d[32m  roscpp[13d  rospy[14d  std_msgs[15d[39m(B[m)[17d(B[0;1m[34m## System dependencies are found with CMake's conventions[18d# find_package(Boost REQUIRED COMPONENTS system)[21d## Uncomment this if the package has a setup.py. This macro ensures[2d[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m## modules and global scripts declared therein get installed[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m# catkin_python_setup()[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H(B[0;1m[34m## Declare ROS messages, services and actions ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[K[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## To declare and build messages, services or actions from within this[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## package, follow these steps:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * Let MSG_DEP_SET be the set of packages whose message types you use in[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   your messages/services/actions (e.g. std_msgs, actionlib_msgs, ...).[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In the file package.xml:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add a build_depend tag for "message_generation"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add a build_depend and a exec_depend tag for each package in MSG_DEP_SET[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * If MSG_DEP_SET isn't empty the following dependency has been pulled in[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     but can be declared for certainty nonetheless:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     * add a exec_depend tag for "message_runtime"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In this file (CMakeLists.txt):[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add "message_generation" and every package in MSG_DEP_SET to[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     find_package(catkin REQUIRED COMPONENTS ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add "message_runtime" and every package in MSG_DEP_SET to[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     catkin_package(CATKIN_DEPENDS ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * uncomment the add_*_files sections below as needed[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     and list every .msg/.srv/.action file to be processed[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * uncomment the generate_messages entry below[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate messages in the 'msg' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_message_files([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Message1.msg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Message2.msg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate services in the 'srv' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_service_files([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Service1.srv[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Service2.srv[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate actions in the 'action' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_action_files([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Action1.action[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   Action2.action[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate added messages and services with any dependencies listed here[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# generate_messages([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DEPENDENCIES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   std_msgs[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare ROS dynamic reconfigure parameters ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m################################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## To declare and build dynamic reconfigure parameters within this[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## package, follow these steps:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In the file package.xml:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add a build_depend and a exec_depend tag for "dynamic_reconfigure"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## * In this file (CMakeLists.txt):[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * add "dynamic_reconfigure" to[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     find_package(catkin REQUIRED COMPONENTS ...)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##   * uncomment the "generate_dynamic_reconfigure_options" section below[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m##     and list every .cfg file to be processed[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Generate dynamic reconfigure parameters in the 'cfg' folder[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# generate_dynamic_reconfigure_options([39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   cfg/DynReconf1.cfg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   cfg/DynReconf2.cfg[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## catkin specific configuration ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###################################[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## The catkin_package macro generates cmake config files for your package[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare things to be passed to dependent projects[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## INCLUDE_DIRS: uncomment this if your package contains header files[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## LIBRARIES: libraries you create in this project that dependent projects also[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## CATKIN_DEPENDS: catkin_packages dependent projects also need[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## DEPENDS: system dependencies of this project that dependent projects also ne[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mcatkin_package[39m(B[m([?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  INCLUDE_DIRS include[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  LIBRARIES polebot1[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  CATKIN_DEPENDS roscpp rospy std_msgs[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#  DEPENDS system_lib[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###########[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Build ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m###########[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Specify additional locations of header files[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Your package locations should be listed before other locations[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33minclude_directories[39m(B[m([?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# include[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;3H[36m${catkin_INCLUDE_DIRS}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H)[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare a C++ library[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_library(${PROJECT_NAME}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   src/${PROJECT_NAME}/polebot1.cpp[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add cmake target dependencies of the library[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## as an example, code may need to be generated before libraries[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## either from message generation or dynamic reconfigure[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Declare a C++ executable[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## With catkin_make all packages are built within a single CMake context[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## The recommended prefix ensures that target names across packages don't colli[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_executable(${PROJECT_NAME}_node src/polebot1_node.cpp)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Rename C++ executable without prefix[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## The above recommended prefix causes long target names, the following renames[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## target back to the shorter version for ease of user use[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## e.g. "rosrun someones_pkg node" instead of "rosrun someones_pkg someones_pkg[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# set_target_properties(${PROJECT_NAME}_node PROPERTIES OUTPUT_NAME node PREFIX[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add cmake target dependencies of the executable[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## same as for the library above[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${c[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Specify libraries to link a library or executable target against[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# target_link_libraries(${PROJECT_NAME}_node[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   ${catkin_LIBRARIES}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Install ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# all install targets should use catkin DESTINATION variables[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark executable scripts (Python etc.) for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## in contrast to setup.py, you can choose the destination[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# catkin_install_python(PROGRAMS[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   scripts/my_python_script[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark executables for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_execu[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}_node[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark libraries for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libra[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark cpp header files for installation[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(DIRECTORY include/${PROJECT_NAME}/[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   FILES_MATCHING PATTERN "*.h"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   PATTERN ".svn" EXCLUDE[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Mark other files for installation (e.g. launch and bag files, etc.)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# install(FILES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   # myfile1[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   # myfile2[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Testing ##[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add gtest based cpp test target and link libraries[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# catkin_add_gtest(${PROJECT_NAME}-test test/test_polebot1.cpp)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# if(TARGET ${PROJECT_NAME}-test)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m#   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# endif()[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m## Add folders to be run by python nosetests[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34m# catkin_add_nosetests(test)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   PATTERN ".svn" EXCLUDE[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m#   FILES_MATCHING PATTERN "*.h"[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# install(DIRECTORY include/${PROJECT_NAME}/[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Mark cpp header files for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libra[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Mark libraries for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# install(TARGETS ${PROJECT_NAME}_node[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_execu[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## Mark executables for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   scripts/my_python_script[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# catkin_install_python(PROGRAMS[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## in contrast to setup.py, you can choose the destination[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H(B[0;1m[34m## Mark executable scripts (Python etc.) for installation[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# all install targets should use catkin DESTINATION variables[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Install ##[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#############[39m(B[m[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# )[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m#   ${catkin_LIBRARIES}[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m# target_link_libraries(${PROJECT_NAME}_node[39m(B[m[?12l[?25h[?25l7[2;21r8M[1;24r[2;1H(B[0;1m[34m## Specify libraries to link a library or executable target against[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[A[?12l[?25h[?25l[C[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[16d[32m catkin_install_python[39m(B[m(PROGRAMS[K[?12l[?25h[?25l[17d[?12l[?25h[?25l[C[?12l[?25h[?25l(B[0;1m[34m\   scripts/my_python_script#\[39m(B[m[?12l[?25h[?25l[1P[?12l[?25h[?25l[32m   scripts[39m(B[m/my_python_script[K[?12l[?25h[?25l[18d[?12l[?25h[?25l[C[?12l[?25h[?25l[32m   DESTINATION[39m(B[m [36m${CATKIN_PACKAGE_BIN_DESTINATION}[39m(B[m[K[?12l[?25h[?25l[19d[?12l[?25h[?25l[C[?12l[?25h[?25l )[K[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l/[?12l[?25h[?25lm[?12l[?25h[?25ly[?12l[?25h[?25l_[?12l[?25h[?25lp[?12l[?25h[?25ly[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l_[?12l[?25h[?25ls[?12l[?25h[?25lc[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25lb[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25ly[?12l[?25h[?25l[18d[?12l[?25h[?25l[19;3H[?12l[?25h[?25l[20d[?12l[?25h[?25l[A )[?12l[?25h[?25l[21d[K[A[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[32m c[39m(B[m[?12l[?25h[?25l[32ma[39m(B[m[?12l[?25h[?25l[32mt[39m(B[m[?12l[?25h[?25l[32mk[39m(B[m[?12l[?25h[?25l[32mi[39m(B[m[?12l[?25h[?25l[32mn[39m(B[m[?12l[?25h[?25l[32m_[39m(B[m[?12l[?25h[?25l[32mi[39m(B[m[?12l[?25h[?25l[32mn[39m(B[m[?12l[?25h[?25l[32ms[39m(B[m[?12l[?25h[?25l[32mt[39m(B[m[?12l[?25h[?25l[32ma[39m(B[m[?12l[?25h[?25l[32ml[39m(B[m[?12l[?25h[?25l[32ml[39m(B[m[?12l[?25h[?25l[32m_[39m(B[m[?12l[?25h[?25l[32mp[39m(B[m[?12l[?25h[?25l[32mu[39m(B[m[?12l[?25h[?25l[32my[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[32my[39m(B[m[?12l[?25h[?25l[32mt[39m(B[m[?12l[?25h[?25l[32mh[39m(B[m[?12l[?25h[?25l[32mo[39m(B[m[?12l[?25h[?25l[32mn[39m(B[m[?12l[?25h[?25l([?12l[?25h[?25lP[?12l[?25h[?25lR[?12l[?25h[?25lO[?12l[?25h[?25lG[?12l[?25h[?25lR[?12l[?25h[?25lA[?12l[?25h[?25lM[?12l[?25h[?25lS[?12l[?25h[?25l[21d[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[K[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[32m  S[39m(B[m[?12l[?25h[?25l[42m  [49m(B[m[K[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[32m   S[39m(B[m[?12l[?25h[?25l[42m   [49m(B[m[K[?12l[?25h[?25l[32m   s[39m(B[m[?12l[?25h[?25l[32mc[39m(B[m[?12l[?25h[?25l[32mr[39m(B[m[?12l[?25h[?25l[32mi[39m(B[m[?12l[?25h[?25l[32mp[39m(B[m[?12l[?25h[?25l[32mt[39m(B[m[?12l[?25h[?25l[32ms[39m(B[m[?12l[?25h[?25l/[?12l[?25h[?25lp[?12l[?25h[?25lu[?12l[?25h[?25lb[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25ly[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[32m   d[39m(B[m[?12l[?25h[?25l[42m   [49m(B[m[K[?12l[?25h[?25l[32m   D[39m(B[m[?12l[?25h[?25l[32ms[39m(B[m[?12l[?25h[?25l[32me[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[32me[39m(B[m[?12l[?25h[?25l[32ms[39m(B[m[?12l[?25h[?25l[32mt[39m(B[m[?12l[?25h[?25l[32mi[39m(B[m[?12l[?25h[?25l[32mn[39m(B[m[?12l[?25h[?25l[32ma[39m(B[m[?12l[?25h[?25l[32mt[39m(B[m[?12l[?25h[?25l[32mi[39m(B[m[?12l[?25h[?25l[32mo[39m(B[m[?12l[?25h[?25l[32mn[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[32mE[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[32mE[39m(B[m[?12l[?25h[?25l[32mS[39m(B[m[?12l[?25h[?25l[32mT[39m(B[m[?12l[?25h[?25l[32mI[39m(B[m[?12l[?25h[?25l[32mN[39m(B[m[?12l[?25h[?25l[32mA[39m(B[m[?12l[?25h[?25l[32mT[39m(B[m[?12l[?25h[?25l[32mI[39m(B[m[?12l[?25h[?25l[32mO[39m(B[m[?12l[?25h[?25l[32mN[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l $[?12l[?25h[?25l[36m${[39m(B[m[?12l[?25h[?25l[36mC[39m(B[m[?12l[?25h[?25l[36mA[39m(B[m[?12l[?25h[?25l[36mT[39m(B[m[?12l[?25h[?25l[36mK[39m(B[m[?12l[?25h[?25l[36mI[39m(B[m[?12l[?25h[?25l[36mN[39m(B[m[?12l[?25h[?25l[36m_[39m(B[m[?12l[?25h[?25l[36mC[39m(B[m[?12l[?25h[?25l[36mR[39m(B[m[?12l[?25h[?25l[36mE[39m(B[m[?12l[?25h[?25l[36mA[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[36mP[39m(B[m[?12l[?25h[?25l[36mA[39m(B[m[?12l[?25h[?25l[36mC[39m(B[m[?12l[?25h[?25l[36mA[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[36mK[39m(B[m[?12l[?25h[?25l[36mA[39m(B[m[?12l[?25h[?25l[36mG[39m(B[m[?12l[?25h[?25l[36mE[39m(B[m[?12l[?25h[?25l[36m_[39m(B[m[?12l[?25h[?25l[36mB[39m(B[m[?12l[?25h[?25l[36mI[39m(B[m[?12l[?25h[?25l[36mN[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[36m_[39m(B[m[?12l[?25h[?25l[36mD[39m(B[m[?12l[?25h[?25l[36mE[39m(B[m[?12l[?25h[?25l[36mS[39m(B[m[?12l[?25h[?25l[36mT[39m(B[m[?12l[?25h[?25l[36mI[39m(B[m[?12l[?25h[?25l[36mN[39m(B[m[?12l[?25h[?25l[36mA[39m(B[m[?12l[?25h[?25l[36mI[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[36mT[39m(B[m[?12l[?25h[?25l[36mI[39m(B[m[?12l[?25h[?25l[36mO[39m(B[m[?12l[?25h[?25l[36mN[39m(B[m[?12l[?25h[?25l[36m}[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l)[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: CMakeLists.txt(B[m[22;35H[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;71H(B[0;7m        (B[m[22;31H(B[0;7m[ Wrote 210 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;miftah@miftah-hp: ~/polebot_beta/src/polebot1[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/polebot1[00m$ CD [K[K[Kcd ..
+]0;miftah@miftah-hp: ~/polebot_beta/src[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src[00m$ cd ..
+]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ catlom[K[K[Kkin_make
+Base path: /home/miftah/polebot_beta
+Source space: /home/miftah/polebot_beta/src
+Build space: /home/miftah/polebot_beta/build
+Devel space: /home/miftah/polebot_beta/devel
+Install space: /home/miftah/polebot_beta/install
+[34m####[0m
+[34m#### Running command: [1m"make cmake_check_build_system"[0m[34m in [1m"/home/miftah/polebot_beta/build"[0m
+[34m####[0m
+-- Using CATKIN_DEVEL_PREFIX: /home/miftah/polebot_beta/devel
+[0m-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0m-- This workspace overlays: /opt/ros/noetic
+[0m-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0m-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0m-- Using Debian Python package layout
+[0m-- Using empy: /usr/lib/python3/dist-packages/em.py
+[0m-- Using CATKIN_ENABLE_TESTING: ON
+[0m-- Call enable_testing()
+[0m-- Using CATKIN_TEST_RESULTS_DIR: /home/miftah/polebot_beta/build/test_results
+[0m-- Forcing gtest/gmock from source, though one was otherwise available.
+[0m-- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0m-- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0m-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0m-- Using Python nosetests: /usr/bin/nosetests3
+[0m-- catkin 0.8.10
+[0m-- BUILD_SHARED_LIBS is on
+[0m-- BUILD_SHARED_LIBS is on
+[0m-- [35m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m-- [35m~~ [0m traversing 16 packages in topological order:
+[0m-- [35m~~ [0m - [1m[34mrosserial [0m(metapackage)
+[0m-- [35m~~ [0m - [1m[34mrosserial_arduino
+[0m-- [35m~~ [0m - [1m[34mrosserial_chibios
+[0m-- [35m~~ [0m - [1m[34mrosserial_mbed
+[0m-- [35m~~ [0m - [1m[34mrosserial_msgs
+[0m-- [35m~~ [0m - [1m[34mrosserial_python
+[0m-- [35m~~ [0m - [1m[34mrosserial_tivac
+[0m-- [35m~~ [0m - [1m[34mrosserial_vex_cortex
+[0m-- [35m~~ [0m - [1m[34mrosserial_vex_v5
+[0m-- [35m~~ [0m - [1m[34mrosserial_xbee
+[0m-- [35m~~ [0m - [1m[34mrosserial_client
+[0m-- [35m~~ [0m - [1m[34mpolebot1
+[0m-- [35m~~ [0m - [1m[34mrosserial_server
+[0m-- [35m~~ [0m - [1m[34mrosserial_embeddedlinux
+[0m-- [35m~~ [0m - [1m[34mrosserial_test
+[0m-- [35m~~ [0m - [1m[34mrosserial_windows
+[0m-- [35m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m-- [1m[32m+++[0m processing catkin metapackage: 'rosserial[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial)
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_arduino[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_arduino)
+[0m-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0m-- rosserial_arduino: 1 messages, 1 services
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_arduino/src/rosserial_arduino/make_libraries.py to /home/miftah/polebot_beta/devel/lib/rosserial_arduino
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_arduino/nodes/serial_node.py to /home/miftah/polebot_beta/devel/lib/rosserial_arduino
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_chibios[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_chibios)
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_chibios/src/rosserial_chibios/make_libraries.py to /home/miftah/polebot_beta/devel/share/rosserial_chibios
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_mbed[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_mbed)
+[0m-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0m-- rosserial_mbed: 1 messages, 1 services
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_mbed/src/rosserial_mbed/make_libraries.py to /home/miftah/polebot_beta/devel/lib/rosserial_mbed
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_msgs[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_msgs)
+[0m-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0m-- rosserial_msgs: 2 messages, 1 services
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_python[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_python)
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_python/nodes/message_info_service.py to /home/miftah/polebot_beta/devel/lib/rosserial_python
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_python/nodes/serial_node.py to /home/miftah/polebot_beta/devel/lib/rosserial_python
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_tivac[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_tivac)
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_vex_cortex[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_vex_cortex)
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_vex_cortex/src/rosserial_vex_cortex/make_libraries.py to /home/miftah/polebot_beta/devel/share/rosserial_vex_cortex
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_vex_v5[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_vex_v5)
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_vex_v5/src/rosserial_vex_v5/make_libraries.py to /home/miftah/polebot_beta/devel/share/rosserial_vex_v5
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_xbee[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_xbee)
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_client[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_client)
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_client/scripts/make_libraries to /home/miftah/polebot_beta/devel/lib/rosserial_client
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_client/src/rosserial_client/make_library.py to /home/miftah/polebot_beta/devel/lib/rosserial_client
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mpolebot1[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(polebot1)
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/polebot1/scripts/sub.py to /home/miftah/polebot_beta/devel/lib/polebot1
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/polebot1/scripts/pub.py to /home/miftah/polebot_beta/devel/lib/polebot1
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_server[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_server)
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_embeddedlinux[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_embeddedlinux)
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_embeddedlinux/src/rosserial_embeddedlinux/make_libraries.py to /home/miftah/polebot_beta/devel/lib/rosserial_embeddedlinux
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_test[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_test)
+[0m-- [1m[32m+++[0m processing catkin package: '[1m[34mrosserial_windows[0m[0m'
+[0m-- [1m[34m==>[0m add_subdirectory(rosserial/rosserial_windows)
+[0m-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0m-- Installing devel-space wrapper /home/miftah/polebot_beta/src/rosserial/rosserial_windows/src/rosserial_windows/make_libraries.py to /home/miftah/polebot_beta/devel/lib/rosserial_windows
+[0m-- Configuring done
+[0m-- Generating done
+[0m-- Build files have been written to: /home/miftah/polebot_beta/build
+[0m[34m####[0m
+[34m#### Running command: [1m"make -j4 -l4"[0m[34m in [1m"/home/miftah/polebot_beta/build"[0m
+[34m####[0m
+[  0%] Built target _rosserial_mbed_generate_messages_check_deps_Adc
+[  0%] Built target _rosserial_mbed_generate_messages_check_deps_Test
+[  0%] Built target _rosserial_arduino_generate_messages_check_deps_Adc
+[  0%] Built target _rosserial_arduino_generate_messages_check_deps_Test
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target _rosserial_msgs_generate_messages_check_deps_Log
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _rosserial_msgs_generate_messages_check_deps_RequestParam
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target _rosserial_msgs_generate_messages_check_deps_TopicInfo
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  7%] Built target rosserial_arduino_generate_messages_py
+[ 11%] Built target rosserial_arduino_generate_messages_cpp
+[ 15%] Built target rosserial_server_lookup
+[ 21%] Built target rosserial_mbed_generate_messages_eus
+[ 26%] Built target rosserial_arduino_generate_messages_eus
+[ 30%] Built target rosserial_arduino_generate_messages_lisp
+[ 34%] Built target rosserial_arduino_generate_messages_nodejs
+[ 38%] Built target rosserial_mbed_generate_messages_nodejs
+[ 42%] Built target rosserial_mbed_generate_messages_cpp
+[ 46%] Built target rosserial_mbed_generate_messages_lisp
+[ 53%] Built target rosserial_mbed_generate_messages_py
+[ 59%] Built target rosserial_msgs_generate_messages_nodejs
+[ 65%] Built target rosserial_msgs_generate_messages_lisp
+[ 75%] Built target rosserial_msgs_generate_messages_py
+[ 80%] Built target rosserial_msgs_generate_messages_cpp
+[ 88%] Built target rosserial_msgs_generate_messages_eus
+[ 88%] Built target rosserial_mbed_generate_messages
+[ 88%] Built target rosserial_arduino_generate_messages
+[ 88%] Built target rosserial_msgs_generate_messages
+[ 92%] Built target rosserial_server_socket_node
+[ 96%] Built target rosserial_server_serial_node
+[100%] Built target rosserial_server_udp_socket_node
+]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ source devel/setup.n
+bash: devel/setup.n: No such file or directory
+]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ spo[K[K[Ksource devel/setup.bash 
+]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ ro[K[Krosrun rsos[K[K[K[Kpolebot1 sub.py [K[K[K[K[K[K[Kpub.py 
+[INFO] [1675088126.600700]: well hello polebot 1675088126.600486
+[INFO] [1675088126.701464]: well hello polebot 1675088126.7011068
+[INFO] [1675088126.801027]: well hello polebot 1675088126.80074
+[INFO] [1675088126.901358]: well hello polebot 1675088126.901021
+[INFO] [1675088127.000979]: well hello polebot 1675088127.0007129
+[INFO] [1675088127.101071]: well hello polebot 1675088127.1007795
+[INFO] [1675088127.201117]: well hello polebot 1675088127.2008243
+[INFO] [1675088127.301439]: well hello polebot 1675088127.301061
+[INFO] [1675088127.401104]: well hello polebot 1675088127.400807
+[INFO] [1675088127.500979]: well hello polebot 1675088127.5007086
+[INFO] [1675088127.601038]: well hello polebot 1675088127.6007514
+[INFO] [1675088127.701067]: well hello polebot 1675088127.7007732
+[INFO] [1675088127.801498]: well hello polebot 1675088127.8010933
+[INFO] [1675088127.901391]: well hello polebot 1675088127.9010372
+[INFO] [1675088128.000997]: well hello polebot 1675088128.0007248
+[INFO] [1675088128.101511]: well hello polebot 1675088128.1010923
+[INFO] [1675088128.201102]: well hello polebot 1675088128.2008018
+[INFO] [1675088128.301544]: well hello polebot 1675088128.3012595
+[INFO] [1675088128.401085]: well hello polebot 1675088128.4007907
+[INFO] [1675088128.500988]: well hello polebot 1675088128.5007193
+[INFO] [1675088128.601180]: well hello polebot 1675088128.6008203
+[INFO] [1675088128.701410]: well hello polebot 1675088128.7010355
+[INFO] [1675088128.801503]: well hello polebot 1675088128.801211
+[INFO] [1675088128.901063]: well hello polebot 1675088128.9007628
+[INFO] [1675088129.001068]: well hello polebot 1675088129.0007546
+[INFO] [1675088129.101481]: well hello polebot 1675088129.1011035
+[INFO] [1675088129.201054]: well hello polebot 1675088129.2007608
+[INFO] [1675088129.301038]: well hello polebot 1675088129.3007503
+[INFO] [1675088129.401053]: well hello polebot 1675088129.4007678
+[INFO] [1675088129.501008]: well hello polebot 1675088129.5007346
+[INFO] [1675088129.601099]: well hello polebot 1675088129.6008034
+[INFO] [1675088129.701365]: well hello polebot 1675088129.7010236
+[INFO] [1675088129.801215]: well hello polebot 1675088129.8008692
+[INFO] [1675088129.901390]: well hello polebot 1675088129.9008534
+[INFO] [1675088130.000993]: well hello polebot 1675088130.0007324
+[INFO] [1675088130.101193]: well hello polebot 1675088130.1007879
+[INFO] [1675088130.201036]: well hello polebot 1675088130.2007542
+[INFO] [1675088130.301405]: well hello polebot 1675088130.3010724
+[INFO] [1675088130.401081]: well hello polebot 1675088130.4007878
+[INFO] [1675088130.501030]: well hello polebot 1675088130.5007565
+[INFO] [1675088130.601685]: well hello polebot 1675088130.6012366
+[INFO] [1675088130.701076]: well hello polebot 1675088130.7007673
+[INFO] [1675088130.801402]: well hello polebot 1675088130.8010533
+[INFO] [1675088130.901015]: well hello polebot 1675088130.9007254
+[INFO] [1675088131.001067]: well hello polebot 1675088131.0007544
+[INFO] [1675088131.100993]: well hello polebot 1675088131.100733
+[INFO] [1675088131.201039]: well hello polebot 1675088131.200737
+[INFO] [1675088131.301066]: well hello polebot 1675088131.3007736
+[INFO] [1675088131.401083]: well hello polebot 1675088131.4007828
+[INFO] [1675088131.501387]: well hello polebot 1675088131.5010524
+[INFO] [1675088131.601068]: well hello polebot 1675088131.6007736
+[INFO] [1675088131.701044]: well hello polebot 1675088131.7007573
+[INFO] [1675088131.801116]: well hello polebot 1675088131.8008263
+[INFO] [1675088131.901349]: well hello polebot 1675088131.901028
+[INFO] [1675088132.001095]: well hello polebot 1675088132.0008004
+[INFO] [1675088132.101068]: well hello polebot 1675088132.1007762
+[INFO] [1675088132.201022]: well hello polebot 1675088132.200737
+[INFO] [1675088132.301577]: well hello polebot 1675088132.3010423
+[INFO] [1675088132.401094]: well hello polebot 1675088132.4008
+[INFO] [1675088132.501625]: well hello polebot 1675088132.50131
+[INFO] [1675088132.601126]: well hello polebot 1675088132.6008298
+[INFO] [1675088132.701450]: well hello polebot 1675088132.7010934
+[INFO] [1675088132.801068]: well hello polebot 1675088132.80078
+[INFO] [1675088132.901076]: well hello polebot 1675088132.900784
+[INFO] [1675088133.001080]: well hello polebot 1675088133.0007854
+[INFO] [1675088133.101112]: well hello polebot 1675088133.1007931
+[INFO] [1675088133.201074]: well hello polebot 1675088133.200781
+[INFO] [1675088133.301412]: well hello polebot 1675088133.3010855
+[INFO] [1675088133.401434]: well hello polebot 1675088133.4010642
+[INFO] [1675088133.501298]: well hello polebot 1675088133.5009997
+[INFO] [1675088133.601034]: well hello polebot 1675088133.6007457
+[INFO] [1675088133.701017]: well hello polebot 1675088133.7007518
+[INFO] [1675088133.801247]: well hello polebot 1675088133.8008685
+[INFO] [1675088133.901510]: well hello polebot 1675088133.9012196
+[INFO] [1675088134.001079]: well hello polebot 1675088134.0007844
+[INFO] [1675088134.101396]: well hello polebot 1675088134.1010451
+[INFO] [1675088134.201063]: well hello polebot 1675088134.20077
+[INFO] [1675088134.301029]: well hello polebot 1675088134.3007467
+[INFO] [1675088134.401029]: well hello polebot 1675088134.4007628
+[INFO] [1675088134.501490]: well hello polebot 1675088134.501205
+[INFO] [1675088134.601101]: well hello polebot 1675088134.6008074
+[INFO] [1675088134.701505]: well hello polebot 1675088134.7011378
+[INFO] [1675088134.801080]: well hello polebot 1675088134.8007815
+[INFO] [1675088134.901037]: well hello polebot 1675088134.9007525
+[INFO] [1675088135.001117]: well hello polebot 1675088135.0008228
+[INFO] [1675088135.101338]: well hello polebot 1675088135.1010191
+[INFO] [1675088135.201026]: well hello polebot 1675088135.2007368
+[INFO] [1675088135.301377]: well hello polebot 1675088135.301031
+[INFO] [1675088135.401044]: well hello polebot 1675088135.4007506
+[INFO] [1675088135.501115]: well hello polebot 1675088135.5007927
+[INFO] [1675088135.601038]: well hello polebot 1675088135.6007493
+[INFO] [1675088135.701356]: well hello polebot 1675088135.7010283
+[INFO] [1675088135.801073]: well hello polebot 1675088135.8007765
+[INFO] [1675088135.900995]: well hello polebot 1675088135.900737
+[INFO] [1675088136.001048]: well hello polebot 1675088136.00076
+[INFO] [1675088136.101059]: well hello polebot 1675088136.100747
+[INFO] [1675088136.201352]: well hello polebot 1675088136.200865
+[INFO] [1675088136.301389]: well hello polebot 1675088136.3010519
+[INFO] [1675088136.401508]: well hello polebot 1675088136.4012163
+[INFO] [1675088136.501071]: well hello polebot 1675088136.500776
+[INFO] [1675088136.601281]: well hello polebot 1675088136.6008778
+[INFO] [1675088136.701477]: well hello polebot 1675088136.7011309
+[INFO] [1675088136.801072]: well hello polebot 1675088136.8007755
+[INFO] [1675088136.901494]: well hello polebot 1675088136.9011946
+[INFO] [1675088137.001120]: well hello polebot 1675088137.000805
+[INFO] [1675088137.101114]: well hello polebot 1675088137.100783
+[INFO] [1675088137.201362]: well hello polebot 1675088137.2008526
+[INFO] [1675088137.301323]: well hello polebot 1675088137.300872
+[INFO] [1675088137.401116]: well hello polebot 1675088137.400785
+[INFO] [1675088137.501078]: well hello polebot 1675088137.5007913
+[INFO] [1675088137.601130]: well hello polebot 1675088137.6008012
+[INFO] [1675088137.701116]: well hello polebot 1675088137.7007966
+[INFO] [1675088137.801034]: well hello polebot 1675088137.8007603
+[INFO] [1675088137.901079]: well hello polebot 1675088137.9007497
+[INFO] [1675088138.001024]: well hello polebot 1675088138.0007472
+[INFO] [1675088138.101017]: well hello polebot 1675088138.1007252
+[INFO] [1675088138.201104]: well hello polebot 1675088138.200831
+[INFO] [1675088138.301342]: well hello polebot 1675088138.3010242
+[INFO] [1675088138.401047]: well hello polebot 1675088138.4007573
+[INFO] [1675088138.501059]: well hello polebot 1675088138.5007699
+[INFO] [1675088138.601449]: well hello polebot 1675088138.6010768
+[INFO] [1675088138.701056]: well hello polebot 1675088138.7007535
+[INFO] [1675088138.801066]: well hello polebot 1675088138.8007784
+[INFO] [1675088138.901081]: well hello polebot 1675088138.9007854
+[INFO] [1675088139.001025]: well hello polebot 1675088139.0007467
+[INFO] [1675088139.101055]: well hello polebot 1675088139.100762
+[INFO] [1675088139.201650]: well hello polebot 1675088139.201067
+[INFO] [1675088139.301100]: well hello polebot 1675088139.3008068
+[INFO] [1675088139.401060]: well hello polebot 1675088139.4007707
+[INFO] [1675088139.501089]: well hello polebot 1675088139.5007732
+[INFO] [1675088139.601083]: well hello polebot 1675088139.600796
+[INFO] [1675088139.701522]: well hello polebot 1675088139.7012346
+[INFO] [1675088139.801089]: well hello polebot 1675088139.80079
+[INFO] [1675088139.901501]: well hello polebot 1675088139.9012015
+[INFO] [1675088140.001122]: well hello polebot 1675088140.0008283
+[INFO] [1675088140.101389]: well hello polebot 1675088140.101047
+[INFO] [1675088140.201100]: well hello polebot 1675088140.2008047
+[INFO] [1675088140.301109]: well hello polebot 1675088140.3008137
+[INFO] [1675088140.401046]: well hello polebot 1675088140.4007573
+[INFO] [1675088140.501549]: well hello polebot 1675088140.5012
+[INFO] [1675088140.601188]: well hello polebot 1675088140.600835
+[INFO] [1675088140.701339]: well hello polebot 1675088140.7010295
+[INFO] [1675088140.801103]: well hello polebot 1675088140.800806
+[INFO] [1675088140.901038]: well hello polebot 1675088140.9007509
+[INFO] [1675088141.000997]: well hello polebot 1675088141.0007348
+[INFO] [1675088141.101450]: well hello polebot 1675088141.1011171
+[INFO] [1675088141.201104]: well hello polebot 1675088141.20081
+[INFO] [1675088141.301370]: well hello polebot 1675088141.3010416
+[INFO] [1675088141.401082]: well hello polebot 1675088141.400787
+[INFO] [1675088141.501083]: well hello polebot 1675088141.500791
+[INFO] [1675088141.601033]: well hello polebot 1675088141.600743
+[INFO] [1675088141.701046]: well hello polebot 1675088141.7007573
+[INFO] [1675088141.801053]: well hello polebot 1675088141.800764
+[INFO] [1675088141.901094]: well hello polebot 1675088141.9007897
+[INFO] [1675088142.001252]: well hello polebot 1675088142.000863
+[INFO] [1675088142.101084]: well hello polebot 1675088142.1007864
+[INFO] [1675088142.201032]: well hello polebot 1675088142.2007444
+[INFO] [1675088142.301440]: well hello polebot 1675088142.301073
+[INFO] [1675088142.401037]: well hello polebot 1675088142.4007509
+[INFO] [1675088142.501034]: well hello polebot 1675088142.5007672
+[INFO] [1675088142.600986]: well hello polebot 1675088142.6007278
+[INFO] [1675088142.701068]: well hello polebot 1675088142.7007635
+[INFO] [1675088142.801121]: well hello polebot 1675088142.8007987
+[INFO] [1675088142.901069]: well hello polebot 1675088142.900777
+[INFO] [1675088143.001049]: well hello polebot 1675088143.0007796
+[INFO] [1675088143.101359]: well hello polebot 1675088143.101044
+[INFO] [1675088143.201089]: well hello polebot 1675088143.2007935
+[INFO] [1675088143.301077]: well hello polebot 1675088143.30078
+[INFO] [1675088143.401047]: well hello polebot 1675088143.4007585
+[INFO] [1675088143.501059]: well hello polebot 1675088143.500753
+[INFO] [1675088143.601181]: well hello polebot 1675088143.6008124
+[INFO] [1675088143.701596]: well hello polebot 1675088143.701256
+[INFO] [1675088143.801065]: well hello polebot 1675088143.800776
+[INFO] [1675088143.901502]: well hello polebot 1675088143.9012141
+[INFO] [1675088144.001057]: well hello polebot 1675088144.0007627
+[INFO] [1675088144.101132]: well hello polebot 1675088144.10079
+[INFO] [1675088144.201379]: well hello polebot 1675088144.2010393
+[INFO] [1675088144.301337]: well hello polebot 1675088144.3010244
+[INFO] [1675088144.401515]: well hello polebot 1675088144.401229
+[INFO] [1675088144.501341]: well hello polebot 1675088144.500885
+[INFO] [1675088144.601930]: well hello polebot 1675088144.6016326
+[INFO] [1675088144.701291]: well hello polebot 1675088144.700829
+[INFO] [1675088144.801180]: well hello polebot 1675088144.8008108
+[INFO] [1675088144.901469]: well hello polebot 1675088144.9011369
+[INFO] [1675088145.001111]: well hello polebot 1675088145.000818
+[INFO] [1675088145.101030]: well hello polebot 1675088145.1007686
+[INFO] [1675088145.201042]: well hello polebot 1675088145.2007537
+[INFO] [1675088145.301076]: well hello polebot 1675088145.3007905
+[INFO] [1675088145.401108]: well hello polebot 1675088145.4008229
+[INFO] [1675088145.501382]: well hello polebot 1675088145.50104
+[INFO] [1675088145.601097]: well hello polebot 1675088145.6008055
+[INFO] [1675088145.701009]: well hello polebot 1675088145.7007475
+[INFO] [1675088145.801043]: well hello polebot 1675088145.8007498
+[INFO] [1675088145.901039]: well hello polebot 1675088145.900749
+[INFO] [1675088146.001110]: well hello polebot 1675088146.000817
+[INFO] [1675088146.101371]: well hello polebot 1675088146.101044
+[INFO] [1675088146.201241]: well hello polebot 1675088146.2008455
+[INFO] [1675088146.301027]: well hello polebot 1675088146.3007352
+[INFO] [1675088146.401120]: well hello polebot 1675088146.400825
+[INFO] [1675088146.501514]: well hello polebot 1675088146.5012243
+[INFO] [1675088146.601076]: well hello polebot 1675088146.6007786
+[INFO] [1675088146.701005]: well hello polebot 1675088146.700748
+[INFO] [1675088146.801039]: well hello polebot 1675088146.8007758
+[INFO] [1675088146.901055]: well hello polebot 1675088146.900763
+[INFO] [1675088147.001594]: well hello polebot 1675088147.0009956
+[INFO] [1675088147.101290]: well hello polebot 1675088147.1009843
+[INFO] [1675088147.201384]: well hello polebot 1675088147.2010486
+[INFO] [1675088147.301084]: well hello polebot 1675088147.3007793
+[INFO] [1675088147.401042]: well hello polebot 1675088147.4007525
+[INFO] [1675088147.501223]: well hello polebot 1675088147.5008144
+[INFO] [1675088147.601103]: well hello polebot 1675088147.6007783
+[INFO] [1675088147.701514]: well hello polebot 1675088147.7012188
+[INFO] [1675088147.801092]: well hello polebot 1675088147.8007965
+[INFO] [1675088147.901574]: well hello polebot 1675088147.901284
+[INFO] [1675088148.001086]: well hello polebot 1675088148.0007923
+[INFO] [1675088148.101076]: well hello polebot 1675088148.1008024
+[INFO] [1675088148.201115]: well hello polebot 1675088148.2008202
+[INFO] [1675088148.301547]: well hello polebot 1675088148.3012547
+[INFO] [1675088148.401104]: well hello polebot 1675088148.4008067
+[INFO] [1675088148.501000]: well hello polebot 1675088148.5007398
+[INFO] [1675088148.601042]: well hello polebot 1675088148.600752
+[INFO] [1675088148.701030]: well hello polebot 1675088148.7007527
+[INFO] [1675088148.801177]: well hello polebot 1675088148.8008525
+[INFO] [1675088148.901099]: well hello polebot 1675088148.9008105
+[INFO] [1675088149.001103]: well hello polebot 1675088149.0007873
+[INFO] [1675088149.101502]: well hello polebot 1675088149.101214
+[INFO] [1675088149.201049]: well hello polebot 1675088149.2007687
+[INFO] [1675088149.301111]: well hello polebot 1675088149.3008199
+[INFO] [1675088149.400990]: well hello polebot 1675088149.4007292
+[INFO] [1675088149.501499]: well hello polebot 1675088149.5012054
+[INFO] [1675088149.601046]: well hello polebot 1675088149.6007605
+[INFO] [1675088149.701070]: well hello polebot 1675088149.7007773
+[INFO] [1675088149.801045]: well hello polebot 1675088149.8007631
+[INFO] [1675088149.901539]: well hello polebot 1675088149.9012234
+[INFO] [1675088150.001325]: well hello polebot 1675088150.0010169
+[INFO] [1675088150.101610]: well hello polebot 1675088150.1013184
+[INFO] [1675088150.201377]: well hello polebot 1675088150.2010481
+[INFO] [1675088150.301019]: well hello polebot 1675088150.3007362
+[INFO] [1675088150.401107]: well hello polebot 1675088150.4008162
+[INFO] [1675088150.501028]: well hello polebot 1675088150.5007439
+[INFO] [1675088150.601114]: well hello polebot 1675088150.6008234
+[INFO] [1675088150.701530]: well hello polebot 1675088150.701244
+[INFO] [1675088150.801176]: well hello polebot 1675088150.8008456
+[INFO] [1675088150.901469]: well hello polebot 1675088150.900782
+[INFO] [1675088151.001468]: well hello polebot 1675088151.001085
+[INFO] [1675088151.101181]: well hello polebot 1675088151.1008525
+[INFO] [1675088151.201410]: well hello polebot 1675088151.2009149
+[INFO] [1675088151.302054]: well hello polebot 1675088151.3012583
+[INFO] [1675088151.401983]: well hello polebot 1675088151.4016511
+[INFO] [1675088151.501508]: well hello polebot 1675088151.500886
+[INFO] [1675088151.602257]: well hello polebot 1675088151.6016474
+[INFO] [1675088151.701364]: well hello polebot 1675088151.7007585
+[INFO] [1675088151.801708]: well hello polebot 1675088151.801306
+[INFO] [1675088151.901420]: well hello polebot 1675088151.900983
+[INFO] [1675088152.001061]: well hello polebot 1675088152.0007646
+[INFO] [1675088152.101280]: well hello polebot 1675088152.1008625
+[INFO] [1675088152.201091]: well hello polebot 1675088152.200758
+[INFO] [1675088152.301436]: well hello polebot 1675088152.3007407
+[INFO] [1675088152.401423]: well hello polebot 1675088152.400745
+[INFO] [1675088152.501421]: well hello polebot 1675088152.5010734
+[INFO] [1675088152.601051]: well hello polebot 1675088152.600772
+[INFO] [1675088152.701524]: well hello polebot 1675088152.7012618
+[INFO] [1675088152.801194]: well hello polebot 1675088152.8008902
+[INFO] [1675088152.901025]: well hello polebot 1675088152.9007442
+[INFO] [1675088153.001030]: well hello polebot 1675088153.0007403
+[INFO] [1675088153.101105]: well hello polebot 1675088153.1007285
+[INFO] [1675088153.201131]: well hello polebot 1675088153.2008185
+[INFO] [1675088153.301027]: well hello polebot 1675088153.3007448
+[INFO] [1675088153.401046]: well hello polebot 1675088153.4007535
+[INFO] [1675088153.501039]: well hello polebot 1675088153.5007486
+[INFO] [1675088153.601053]: well hello polebot 1675088153.6007597
+[INFO] [1675088153.701039]: well hello polebot 1675088153.7007542
+[INFO] [1675088153.801049]: well hello polebot 1675088153.8007731
+[INFO] [1675088153.901478]: well hello polebot 1675088153.9010808
+[INFO] [1675088154.001091]: well hello polebot 1675088154.0007937
+[INFO] [1675088154.101367]: well hello polebot 1675088154.1010308
+[INFO] [1675088154.201087]: well hello polebot 1675088154.2007945
+[INFO] [1675088154.301085]: well hello polebot 1675088154.3007941
+[INFO] [1675088154.401213]: well hello polebot 1675088154.400864
+[INFO] [1675088154.501404]: well hello polebot 1675088154.5010724
+[INFO] [1675088154.601094]: well hello polebot 1675088154.600803
+[INFO] [1675088154.701090]: well hello polebot 1675088154.700782
+[INFO] [1675088154.801080]: well hello polebot 1675088154.8007898
+[INFO] [1675088154.901208]: well hello polebot 1675088154.900765
+[INFO] [1675088155.001568]: well hello polebot 1675088155.0012789
+[INFO] [1675088155.101364]: well hello polebot 1675088155.1010547
+[INFO] [1675088155.201482]: well hello polebot 1675088155.2011852
+[INFO] [1675088155.301416]: well hello polebot 1675088155.3010778
+[INFO] [1675088155.401089]: well hello polebot 1675088155.400802
+[INFO] [1675088155.501180]: well hello polebot 1675088155.5007894
+[INFO] [1675088155.601055]: well hello polebot 1675088155.6007679
+[INFO] [1675088155.701511]: well hello polebot 1675088155.7012248
+[INFO] [1675088155.801042]: well hello polebot 1675088155.800759
+[INFO] [1675088155.901067]: well hello polebot 1675088155.9007797
+[INFO] [1675088156.001361]: well hello polebot 1675088156.0010257
+[INFO] [1675088156.101400]: well hello polebot 1675088156.101068
+[INFO] [1675088156.201073]: well hello polebot 1675088156.200785
+[INFO] [1675088156.301012]: well hello polebot 1675088156.3007286
+[INFO] [1675088156.401077]: well hello polebot 1675088156.4007866
+[INFO] [1675088156.501102]: well hello polebot 1675088156.5007737
+[INFO] [1675088156.601079]: well hello polebot 1675088156.6007893
+[INFO] [1675088156.701472]: well hello polebot 1675088156.7011814
+[INFO] [1675088156.801079]: well hello polebot 1675088156.8007956
+[INFO] [1675088156.901339]: well hello polebot 1675088156.9010224
+[INFO] [1675088157.001091]: well hello polebot 1675088157.0007935
+[INFO] [1675088157.101295]: well hello polebot 1675088157.1008441
+[INFO] [1675088157.201079]: well hello polebot 1675088157.2007873
+[INFO] [1675088157.301446]: well hello polebot 1675088157.3010974
+[INFO] [1675088157.401109]: well hello polebot 1675088157.4008172
+[INFO] [1675088157.501070]: well hello polebot 1675088157.5007763
+[INFO] [1675088157.601037]: well hello polebot 1675088157.6007547
+[INFO] [1675088157.701069]: well hello polebot 1675088157.7007782
+[INFO] [1675088157.801100]: well hello polebot 1675088157.8008118
+[INFO] [1675088157.901062]: well hello polebot 1675088157.9007955
+[INFO] [1675088158.001014]: well hello polebot 1675088158.000746
+[INFO] [1675088158.101407]: well hello polebot 1675088158.1010466
+[INFO] [1675088158.201061]: well hello polebot 1675088158.200774
+[INFO] [1675088158.301086]: well hello polebot 1675088158.3007534
+[INFO] [1675088158.401540]: well hello polebot 1675088158.401248
+[INFO] [1675088158.501054]: well hello polebot 1675088158.50076
+[INFO] [1675088158.601225]: well hello polebot 1675088158.6008635
+[INFO] [1675088158.701462]: well hello polebot 1675088158.701089
+[INFO] [1675088158.801052]: well hello polebot 1675088158.8007696
+[INFO] [1675088158.901081]: well hello polebot 1675088158.9007862
+[INFO] [1675088159.001084]: well hello polebot 1675088159.0007946
+[INFO] [1675088159.101063]: well hello polebot 1675088159.1007736
+[INFO] [1675088159.201096]: well hello polebot 1675088159.2007732
+[INFO] [1675088159.301566]: well hello polebot 1675088159.301278
+[INFO] [1675088159.401098]: well hello polebot 1675088159.400807
+[INFO] [1675088159.501528]: well hello polebot 1675088159.501236
+[INFO] [1675088159.601084]: well hello polebot 1675088159.6007936
+[INFO] [1675088159.701517]: well hello polebot 1675088159.701223
+[INFO] [1675088159.801051]: well hello polebot 1675088159.800761
+[INFO] [1675088159.901307]: well hello polebot 1675088159.9009535
+[INFO] [1675088160.001132]: well hello polebot 1675088160.000832
+[INFO] [1675088160.101186]: well hello polebot 1675088160.1008186
+[INFO] [1675088160.201112]: well hello polebot 1675088160.2007823
+[INFO] [1675088160.301195]: well hello polebot 1675088160.3008285
+[INFO] [1675088160.401068]: well hello polebot 1675088160.400778
+[INFO] [1675088160.500966]: well hello polebot 1675088160.5007188
+[INFO] [1675088160.601039]: well hello polebot 1675088160.600746
+[INFO] [1675088160.701277]: well hello polebot 1675088160.7008767
+[INFO] [1675088160.801231]: well hello polebot 1675088160.8008804
+[INFO] [1675088160.901067]: well hello polebot 1675088160.9007487
+[INFO] [1675088161.001380]: well hello polebot 1675088161.0010457
+[INFO] [1675088161.101618]: well hello polebot 1675088161.1013534
+[INFO] [1675088161.201023]: well hello polebot 1675088161.2007363
+[INFO] [1675088161.301061]: well hello polebot 1675088161.3007765
+[INFO] [1675088161.401127]: well hello polebot 1675088161.4008284
+[INFO] [1675088161.501519]: well hello polebot 1675088161.501226
+[INFO] [1675088161.601071]: well hello polebot 1675088161.6007981
+[INFO] [1675088161.701307]: well hello polebot 1675088161.7008672
+[INFO] [1675088161.801120]: well hello polebot 1675088161.8008254
+[INFO] [1675088161.901353]: well hello polebot 1675088161.9010315
+[INFO] [1675088162.001042]: well hello polebot 1675088162.000772
+[INFO] [1675088162.101601]: well hello polebot 1675088162.1013098
+[INFO] [1675088162.201052]: well hello polebot 1675088162.2007637
+[INFO] [1675088162.301370]: well hello polebot 1675088162.3010101
+[INFO] [1675088162.401051]: well hello polebot 1675088162.4007666
+[INFO] [1675088162.501385]: well hello polebot 1675088162.5010312
+[INFO] [1675088162.601055]: well hello polebot 1675088162.6007652
+[INFO] [1675088162.701117]: well hello polebot 1675088162.7008243
+[INFO] [1675088162.801136]: well hello polebot 1675088162.8008366
+[INFO] [1675088162.901107]: well hello polebot 1675088162.9008145
+[INFO] [1675088163.001114]: well hello polebot 1675088163.0007875
+[INFO] [1675088163.101312]: well hello polebot 1675088163.1009774
+[INFO] [1675088163.201091]: well hello polebot 1675088163.2008026
+[INFO] [1675088163.301500]: well hello polebot 1675088163.3012016
+[INFO] [1675088163.401119]: well hello polebot 1675088163.4008298
+[INFO] [1675088163.501056]: well hello polebot 1675088163.500765
+[INFO] [1675088163.601198]: well hello polebot 1675088163.6008217
+[INFO] [1675088163.701551]: well hello polebot 1675088163.7012606
+[INFO] [1675088163.801105]: well hello polebot 1675088163.8008077
+[INFO] [1675088163.901692]: well hello polebot 1675088163.9013548
+[INFO] [1675088164.001023]: well hello polebot 1675088164.0007417
+[INFO] [1675088164.101551]: well hello polebot 1675088164.1012552
+[INFO] [1675088164.201040]: well hello polebot 1675088164.2007544
+[INFO] [1675088164.301229]: well hello polebot 1675088164.3008497
+[INFO] [1675088164.401083]: well hello polebot 1675088164.4007561
+[INFO] [1675088164.501226]: well hello polebot 1675088164.5008104
+[INFO] [1675088164.601120]: well hello polebot 1675088164.6008258
+[INFO] [1675088164.701572]: well hello polebot 1675088164.701301
+[INFO] [1675088164.801058]: well hello polebot 1675088164.800764
+[INFO] [1675088164.901242]: well hello polebot 1675088164.9007921
+[INFO] [1675088165.001115]: well hello polebot 1675088165.0008209
+[INFO] [1675088165.101416]: well hello polebot 1675088165.1010497
+[INFO] [1675088165.201077]: well hello polebot 1675088165.2007818
+[INFO] [1675088165.301088]: well hello polebot 1675088165.3007839
+[INFO] [1675088165.401056]: well hello polebot 1675088165.400777
+[INFO] [1675088165.501122]: well hello polebot 1675088165.5008006
+[INFO] [1675088165.601058]: well hello polebot 1675088165.600774
+[INFO] [1675088165.701091]: well hello polebot 1675088165.7008085
+[INFO] [1675088165.801198]: well hello polebot 1675088165.8008156
+[INFO] [1675088165.901416]: well hello polebot 1675088165.9010646
+[INFO] [1675088166.001008]: well hello polebot 1675088166.0007327
+[INFO] [1675088166.101047]: well hello polebot 1675088166.1007564
+[INFO] [1675088166.201053]: well hello polebot 1675088166.200765
+[INFO] [1675088166.301057]: well hello polebot 1675088166.3007534
+[INFO] [1675088166.401014]: well hello polebot 1675088166.4007378
+[INFO] [1675088166.500989]: well hello polebot 1675088166.5007105
+[INFO] [1675088166.601025]: well hello polebot 1675088166.6007514
+[INFO] [1675088166.701039]: well hello polebot 1675088166.700734
+[INFO] [1675088166.801100]: well hello polebot 1675088166.8008127
+[INFO] [1675088166.901092]: well hello polebot 1675088166.9007761
+[INFO] [1675088167.001096]: well hello polebot 1675088167.0007837
+[INFO] [1675088167.101423]: well hello polebot 1675088167.101056
+[INFO] [1675088167.201214]: well hello polebot 1675088167.2008247
+[INFO] [1675088167.301285]: well hello polebot 1675088167.3008413
+[INFO] [1675088167.401106]: well hello polebot 1675088167.4007869
+[INFO] [1675088167.501285]: well hello polebot 1675088167.5009499
+[INFO] [1675088167.601048]: well hello polebot 1675088167.6007574
+[INFO] [1675088167.701014]: well hello polebot 1675088167.7007437
+[INFO] [1675088167.801070]: well hello polebot 1675088167.800785
+[INFO] [1675088167.901055]: well hello polebot 1675088167.900761
+[INFO] [1675088168.001059]: well hello polebot 1675088168.0007591
+[INFO] [1675088168.101062]: well hello polebot 1675088168.100739
+[INFO] [1675088168.201083]: well hello polebot 1675088168.2007718
+[INFO] [1675088168.301102]: well hello polebot 1675088168.300788
+[INFO] [1675088168.401068]: well hello polebot 1675088168.4007697
+[INFO] [1675088168.501096]: well hello polebot 1675088168.5007675
+[INFO] [1675088168.601074]: well hello polebot 1675088168.6008117
+[INFO] [1675088168.701098]: well hello polebot 1675088168.7007406
+[INFO] [1675088168.801181]: well hello polebot 1675088168.800833
+[INFO] [1675088168.901532]: well hello polebot 1675088168.9012156
+[INFO] [1675088169.001466]: well hello polebot 1675088169.0010304
+[INFO] [1675088169.101551]: well hello polebot 1675088169.101204
+[INFO] [1675088169.201089]: well hello polebot 1675088169.2007911
+[INFO] [1675088169.301075]: well hello polebot 1675088169.30076
+[INFO] [1675088169.401092]: well hello polebot 1675088169.4007576
+[INFO] [1675088169.501209]: well hello polebot 1675088169.5007868
+[INFO] [1675088169.601131]: well hello polebot 1675088169.6008282
+[INFO] [1675088169.701115]: well hello polebot 1675088169.700829
+[INFO] [1675088169.801072]: well hello polebot 1675088169.8007596
+[INFO] [1675088169.901114]: well hello polebot 1675088169.900818
+[INFO] [1675088170.000878]: well hello polebot 1675088170.0007
+[INFO] [1675088170.101369]: well hello polebot 1675088170.1010213
+[INFO] [1675088170.201271]: well hello polebot 1675088170.200843
+[INFO] [1675088170.301134]: well hello polebot 1675088170.3008356
+[INFO] [1675088170.401083]: well hello polebot 1675088170.4007826
+[INFO] [1675088170.501421]: well hello polebot 1675088170.5010457
+[INFO] [1675088170.601085]: well hello polebot 1675088170.6007848
+[INFO] [1675088170.701195]: well hello polebot 1675088170.7008452
+[INFO] [1675088170.801069]: well hello polebot 1675088170.8007734
+[INFO] [1675088170.901309]: well hello polebot 1675088170.9008691
+[INFO] [1675088171.001131]: well hello polebot 1675088171.0008302
+[INFO] [1675088171.101419]: well hello polebot 1675088171.1010528
+[INFO] [1675088171.201062]: well hello polebot 1675088171.200776
+[INFO] [1675088171.301373]: well hello polebot 1675088171.301031
+[INFO] [1675088171.401138]: well hello polebot 1675088171.4008415
+[INFO] [1675088171.501136]: well hello polebot 1675088171.5007927
+[INFO] [1675088171.601078]: well hello polebot 1675088171.6007838
+[INFO] [1675088171.701397]: well hello polebot 1675088171.7010338
+[INFO] [1675088171.801369]: well hello polebot 1675088171.8010445
+[INFO] [1675088171.901512]: well hello polebot 1675088171.9012222
+[INFO] [1675088172.001073]: well hello polebot 1675088172.0007756
+[INFO] [1675088172.101248]: well hello polebot 1675088172.1007845
+[INFO] [1675088172.201069]: well hello polebot 1675088172.2007616
+[INFO] [1675088172.301512]: well hello polebot 1675088172.301136
+[INFO] [1675088172.401068]: well hello polebot 1675088172.4007769
+[INFO] [1675088172.501472]: well hello polebot 1675088172.5011804
+[INFO] [1675088172.601052]: well hello polebot 1675088172.600756
+[INFO] [1675088172.701062]: well hello polebot 1675088172.7007442
+[INFO] [1675088172.801109]: well hello polebot 1675088172.8008144
+[INFO] [1675088172.901529]: well hello polebot 1675088172.901231
+[INFO] [1675088173.001315]: well hello polebot 1675088173.0008993
+[INFO] [1675088173.101479]: well hello polebot 1675088173.1011794
+[INFO] [1675088173.201086]: well hello polebot 1675088173.2007937
+[INFO] [1675088173.301488]: well hello polebot 1675088173.3011916
+[INFO] [1675088173.401076]: well hello polebot 1675088173.4007795
+[INFO] [1675088173.501058]: well hello polebot 1675088173.500754
+[INFO] [1675088173.601132]: well hello polebot 1675088173.6008344
+[INFO] [1675088173.701091]: well hello polebot 1675088173.7007883
+[INFO] [1675088173.801137]: well hello polebot 1675088173.800839
+[INFO] [1675088173.901095]: well hello polebot 1675088173.9007933
+[INFO] [1675088174.001032]: well hello polebot 1675088174.0007432
+[INFO] [1675088174.101758]: well hello polebot 1675088174.1014488
+[INFO] [1675088174.201182]: well hello polebot 1675088174.200806
+[INFO] [1675088174.301578]: well hello polebot 1675088174.3012562
+[INFO] [1675088174.401093]: well hello polebot 1675088174.4007795
+[INFO] [1675088174.501784]: well hello polebot 1675088174.501401
+[INFO] [1675088174.601457]: well hello polebot 1675088174.6010482
+[INFO] [1675088174.701468]: well hello polebot 1675088174.7011878
+[INFO] [1675088174.801107]: well hello polebot 1675088174.800809
+[INFO] [1675088174.901049]: well hello polebot 1675088174.9007585
+[INFO] [1675088175.001016]: well hello polebot 1675088175.000735
+[INFO] [1675088175.101591]: well hello polebot 1675088175.1013062
+[INFO] [1675088175.201331]: well hello polebot 1675088175.2010214
+[INFO] [1675088175.301400]: well hello polebot 1675088175.3010561
+[INFO] [1675088175.400995]: well hello polebot 1675088175.4007359
+[INFO] [1675088175.501056]: well hello polebot 1675088175.5007534
+[INFO] [1675088175.601113]: well hello polebot 1675088175.6007774
+[INFO] [1675088175.701190]: well hello polebot 1675088175.700825
+[INFO] [1675088175.801027]: well hello polebot 1675088175.8007572
+[INFO] [1675088175.901221]: well hello polebot 1675088175.9008343
+[INFO] [1675088176.001131]: well hello polebot 1675088176.0008416
+[INFO] [1675088176.101412]: well hello polebot 1675088176.1010408
+[INFO] [1675088176.201091]: well hello polebot 1675088176.2007823
+[INFO] [1675088176.301118]: well hello polebot 1675088176.3008108
+[INFO] [1675088176.401253]: well hello polebot 1675088176.400819
+[INFO] [1675088176.501072]: well hello polebot 1675088176.5007641
+[INFO] [1675088176.601217]: well hello polebot 1675088176.6008203
+[INFO] [1675088176.701322]: well hello polebot 1675088176.7007751
+[INFO] [1675088176.801269]: well hello polebot 1675088176.8007975
+[INFO] [1675088176.901316]: well hello polebot 1675088176.9009414
+[INFO] [1675088177.001120]: well hello polebot 1675088177.0007875
+[INFO] [1675088177.101508]: well hello polebot 1675088177.101088
+[INFO] [1675088177.201126]: well hello polebot 1675088177.2007847
+[INFO] [1675088177.301234]: well hello polebot 1675088177.3008094
+^C]0;miftah@miftah-hp: ~/polebot_beta[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta[00m$ ^C
+]0;miftah@miftah-hp: ~/polebot_beta[01;32mmi

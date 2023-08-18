@@ -1,0 +1,43 @@
+Script started on 2023-04-15 12:20:35+07:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="80" LINES="24"]
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base[00m$ ls
+CMakeLists.txt  description.rviz  [0m[01;34mmesh[0m  package.xml  [01;34msrc[0m  typescript  [01;34mxacro[0m
+[01;34mconfig[0m          [01;34mlaunch[0m            [01;34mmsg[0m   [01;34mscript[0m       [01;34msrv[0m  [01;34murdf[0m
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base[00m$ cd script/
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ ls
+8.py                 inv_kinematik.py
+[0m[01;32mcircle.py[0m            movement_generic_velocity_y.bagy
+eight.py             movement_generic_velocity_y.sh
+frw_kinematik.py     movement_stop.bagy
+[01;32minput.py[0m             movement_stop.sh
+Invers_Kinematik.py  [01;32mtry.py[0m
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ cd[K[Kchmod +x 8.py 
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ chmod +e[Kx eight.py 
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ chmod + [Kin[K[Kx inv_kinematik.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ clear
+[H[2J[3J]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ ls
+[0m[01;32mcircle.py[0m         Invers_Kinematik.py               movement_stop.sh
+[01;32meight.py[0m          movement_generic_velocity_y.bagy  [01;32mtry.py[0m
+frw_kinematik.py  movement_generic_velocity_y.sh
+[01;32minput.py[0m          movement_stop.bagy
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ chmod +x I[Kinvers_Kinematik.py 
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ ls
+[0m[01;32mcircle.py[0m         [01;32minvers_Kinematik.py[0m               movement_stop.sh
+[01;32meight.py[0m          movement_generic_velocity_y.bagy  [01;32mtry.py[0m
+frw_kinematik.py  movement_generic_velocity_y.sh
+[01;32minput.py[0m          movement_stop.bagy
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ f[Kchmod +x forward_kinematik.py 
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ ls
+[0m[01;32mcircle.py[0m             [01;32minvers_Kinematik.py[0m               movement_stop.sh
+[01;32meight.py[0m              movement_generic_velocity_y.bagy  [01;32mtry.py[0m
+[01;32mforward_kinematik.py[0m  movement_generic_velocity_y.sh
+[01;32minput.py[0m              movement_stop.bagy
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ claer
+
+Command 'claer' not found, did you mean:
+
+  command 'clear' from deb ncurses-bin (6.2-0ubuntu2)
+
+Try: sudo apt install <deb name>
+
+]0;miftah@miftah-hp: ~/polebot_beta/src/open_base/script[01;32mmiftah@miftah-hp[00m:[01;34m~/polebot_beta/src/open_base/script[00m$ clear
+[H[2J[3J]0;miftah@miftah-hp: ~/polebot

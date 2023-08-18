@@ -1,0 +1,5 @@
+<launch>
+<node pkg="rosserial_python" type="serial_node.py" name="encoder_Value1" args="/dev/ttyUSB0"/>
+<node pkg="rosserial_python" type="serial_node.py" name="encoder_Value2" args="/dev/ttyUSB1"/>
+<node pkg="rosserial_python" type="serial_node.py" name="encoder_Value3" args="/dev/ttyUSB2"/>
+</launch>
